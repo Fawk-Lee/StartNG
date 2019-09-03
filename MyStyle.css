@@ -1,0 +1,49 @@
+body {
+	width: 650px;
+	margin: 0 auto;
+	background: #000;
+	color: #FFF;
+	font: 12px sans-serif;
+}
+
+h1 {
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 18px;
+	margin-top: 0;
+}
+
+.profile {
+	font-size: 12px sans-serif;
+}
+
+a {
+	color: #FFF;
+}
+
+a:focus,
+a:hover {
+	text-decoration: none;
+}
+
+table {
+	margin-bottom: 10px;
+	border-spacing: 0;
+}
+
+
+li {
+	margin-bottom: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+
+tr,
+td {
+	padding: 0 10px 0 0;
+	text-align: left;
+}
+
