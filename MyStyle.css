@@ -1,8 +1,7 @@
 body {
-	width: 650px;
-	margin: 0 auto;
-	background: #000;
-	color: #FFF;
+	background: url('Fasasi.jpg') repeat top center;
+	background-size: cover;
+	height: 100vh;
 	font: 12px sans-serif;
 }
 
@@ -47,3 +46,12 @@ td {
 	text-align: left;
 }
 
+.btn{
+	background: #39b7dd;
+	text-align: center;
+	padding: 15px;
+	border-radius: 5px;
+	color: #000;
+	cursor: pointer;
+	text-transform: uppercase;
+}
