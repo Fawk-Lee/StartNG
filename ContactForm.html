@@ -9,14 +9,18 @@
 
 	<div class="wrapper">
 		<div class="contact-form">
+			<form action="javascript:minlength.validate">
+				<teaxtrea name="test_min_length" id="" cols="30" rows="10" minlenth="20"></teaxtrea>
+			</form>
 			<div class="input-fields">
-				<input type="text" class="input" placeholder="Name">
+				<input type="text" class="input" placeholder="Name" value="" minlength="4">
 				<input type="text" class="input" placeholder="Email Address">
 				<input type="text" class="input" placeholder="Phone">
 				<input type="text" class="input" placeholder ="Title">
 			</div>
 			<div class="msg">
-				<textarea placeholder="Message"></textarea>
+				<textarea placeholder="Message" value="" minlength="20">
+				</textarea>
 				<div class="btn">Send</div>
 			</div>
 		</div>
