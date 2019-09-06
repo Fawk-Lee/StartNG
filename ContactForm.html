@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<title>Contact Me Form</title>
 	<link rel="stylesheet" href="styles.css">
+	
+	<form method="post" action="send_email.php">
 </head>
 <body>
 
@@ -11,17 +13,17 @@
 	<form action="#">
 		<div class="contact-form">
 			<div class="input-fields">
-			   <input type="text" class="input" placeholder="Name" minlength="4" required>
-				<input type="text" class="input" placeholder="Email Address">
-				<input type="text" class="input" placeholder="Phone">
-				<input type="text" class="input" placeholder ="Title">
+			   <input type="text" class="input" placeholder="Name" name="first_name" minlength="4" required>
+				<input type="email" class="input" placeholder="Email Address" name="email_address">
+				<input type="Phone" class="input" placeholder="Phone"  name="Phone">
+				<input type="text" class="input" name="Title" placeholder ="Title">
 			</div>
 			<div class="msg">
-				<textarea placeholder="Message" minlength="20" required>
-				</textarea>
+				<textarea name="Message" minlength="20" required></textarea>
 			</div>
-				<br>
-				<p><input type="submit" value="Submit"></p>
+				<div class="btn">
+				<p><button>submit the form</button></p>
+			    </div>
 		</div>
 	</form>
 	</div>
